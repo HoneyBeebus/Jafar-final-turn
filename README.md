@@ -1,6 +1,8 @@
 # Calculating the Maximum Amount of Moves on the Final Turn
 Jafar and Aladdin are playing checkers. Jafar has one pawn left and is about to make his final move. Construct a function 
-'Solution(B)' 
+
+`Solution(B)`
+
 that calculates the maximum amount of moves possible on the final turn. The board will be of size NxN where N is any integer between (1,30)
 
 ## Assumptions
