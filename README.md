@@ -1,5 +1,7 @@
-# Calculating the maximum amount on the final turn
-Jafar and Aladdin are playing checkers. Jafar has one pawn left and is about to make his final move. Construct a function Solution(B) that calculates the maximum amount of moves possible on the final turn. The board will be of size NxN where N is any integer between (1,30)
+# Calculating the Maximum Amount of Moves on the Final Turn
+Jafar and Aladdin are playing checkers. Jafar has one pawn left and is about to make his final move. Construct a function 
+'Solution(B)' 
+that calculates the maximum amount of moves possible on the final turn. The board will be of size NxN where N is any integer between (1,30)
 
 ## Assumptions
 Checkers can only move in the vertical diagonal direction, i.e. up and to the left or up and to the right. In order for a checker to move, there must be an opponent's checker in the respective tile. Additionally, there must be a free space in the same diagonal adjacent to them.
@@ -14,17 +16,17 @@ Finally, the function calls itself again passing in the updated dictionary and m
 ## Test Cases
 Test cases are as follows:
 
-A. 5x5 board with no movement possible, expected value is 0
-B. 5x5 board with one move available, expected value = 1
-C. 5x5 board with Jafar in the vertical extremes, expected value = 0
-D. 5x5 board with Jafar in the leftmost column and no valid move, expected value = 0
-E. 5x5 board with Jafar in the leftmost column and a single valid move, expected value = 1
-F. 5x5 board with Jafar in the rightmost column and a single valid move, expected v alue = 1
-G. 5x5 board with Jafar starting in prime position for maximum amount of moves on a 5x5 board, expected value = 2
-H. 2x2 board with no valid moves available, expected value = 0
-I. 1x1 board with no valid moves available, expected value = 0
-J. 10x10 board, larger board, one move available, expected value = 1
-K. 3x3 board, minimum sized board for at least one valid move, expected value = 1
+1. 5x5 board with no movement possible, expected value is 0
+2. 5x5 board with one move available, expected value = 1
+3. 5x5 board with Jafar in the vertical extremes, expected value = 0
+4. 5x5 board with Jafar in the leftmost column and no valid move, expected value = 0
+5. 5x5 board with Jafar in the leftmost column and a single valid move, expected value = 1
+6. 5x5 board with Jafar in the rightmost column and a single valid move, expected v alue = 1
+7. 5x5 board with Jafar starting in prime position for maximum amount of moves on a 5x5 board, expected value = 2
+8. 2x2 board with no valid moves available, expected value = 0
+9. 1x1 board with no valid moves available, expected value = 0
+10. 10x10 board, larger board, one move available, expected value = 1
+11. 3x3 board, minimum sized board for at least one valid move, expected value = 1
 
 ## Running
 Compile with python3 interpreter of choice. By default test cases are commented out. To run test cases, uncomment testCases() at the bottom of the file. 
